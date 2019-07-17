@@ -81,4 +81,6 @@ I recommend saving the command as a batch file, for easier use later.
 5. Set `Spread` to `10` and `Scale` to `15`. Calculating the improved texture takes a couple seconds.
 6. `File` -> `Save BMFont files (text)...`
 
-Save it to your Monogame Content folder and import the `.fnt` file into your Content file. You don't need to import the generated `.png` file at all, just make sure it's located in the same folder with the `.fnt` file. If you're creating multiple fonts in one go remove the `Distance Field` effect and add the `Color` effect back when changing fonts and looking for the largest available font size to speed-up the process.
+Save it to your Monogame Content folder and import the `.fnt` file into your Content file. You don't need to import the generated `.png` file at all, just make sure it's located in the same folder with the `.fnt` file.
+
+If you're creating multiple fonts in one go remove the `Distance Field` effect and add the `Color` effect back when changing fonts and looking for the largest available font size to speed-up the process.
