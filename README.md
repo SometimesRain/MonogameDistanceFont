@@ -1,5 +1,6 @@
 ## A simple signed distance field font renderer for Monogame
-<img src="./images/font_demo.png" width="600">
+![](./images/minimal_demo.png)  
+Like a resizable sprite font!
 
 ### [Documentation](./documentation.md)
 Detailed information on usage and creating your own fonts.
