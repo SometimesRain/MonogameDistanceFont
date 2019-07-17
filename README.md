@@ -1,6 +1,5 @@
 ## A simple signed distance field font renderer for Monogame
-<img src="./images/minimal_demo.png" width="680"/>  
-Like a resizable sprite font!
+<img src="./images/minimal_demo.png" width="680"/>
 
 ### [Documentation](./documentation.md)
 Detailed information on usage and creating your own fonts.
@@ -19,7 +18,7 @@ Scaled down                |  Scaled up
 ![](./images/font_demo.png) | ![](./images/font_demo_enlarged.png)
 
 ### Usage
-Add DistanceField.dll as a reference to Monogame pipeline tool, and to your Monogame project. Import a BMFont file with the pipeline tool and load it like any other resource. The BMFont file should be in the same folder with a distance field image that has the same file name.
+Add `DistanceField.dll` as a reference to Monogame pipeline tool, and to your Monogame project. Import a BMFont file with the pipeline tool and load it like any other resource. The BMFont file should be in the same folder with a distance field image that has the same file name.
 
 ```C#
 //Load like any other pipeline resource
