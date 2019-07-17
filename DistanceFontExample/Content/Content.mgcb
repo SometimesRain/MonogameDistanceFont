@@ -1,0 +1,67 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:Windows
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+/reference:..\..\DistanceFont\bin\Debug\DistanceFont.dll
+
+#---------------------------------- Content ---------------------------------#
+
+#begin Arial.fnt
+/importer:FontImporter
+/processor:FontProcessor
+/build:Arial.fnt
+
+#begin Bahnschrift.fnt
+/importer:FontImporter
+/processor:FontProcessor
+/build:Bahnschrift.fnt
+
+#begin Cambria.fnt
+/importer:FontImporter
+/processor:FontProcessor
+/build:Cambria.fnt
+
+#begin Candara.fnt
+/importer:FontImporter
+/processor:FontProcessor
+/build:Candara.fnt
+
+#begin Helvetica.fnt
+/importer:FontImporter
+/processor:FontProcessor
+/build:Helvetica.fnt
+
+#begin MyriadPro.fnt
+/importer:FontImporter
+/processor:FontProcessor
+/build:MyriadPro.fnt
+
+#begin PalatinoLinotype.fnt
+/importer:FontImporter
+/processor:FontProcessor
+/build:PalatinoLinotype.fnt
+
+#begin Rosario.fnt
+/importer:FontImporter
+/processor:FontProcessor
+/build:Rosario.fnt
+
+#begin ScreenMesh.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:ScreenMesh.fx
+
+#begin Verdana.fnt
+/importer:FontImporter
+/processor:FontProcessor
+/build:Verdana.fnt
+
