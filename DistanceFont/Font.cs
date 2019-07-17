@@ -6,17 +6,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-//TODO
-//String measuring
-//Justify left
-//Patch single character linebreak crash
-//Add a way to outline a single word
-//  Create a new IVertexType
-//    Vector3 position, Vector2 texCoords, Color/Vector4 color, Color/Vector4 outlineColor, Vector2 fontWeight, Vector2 outlineWeight
-//    This way all characters can be rendered at the end of the render function, in a single draw call (like spriteBatch.End)
-//      Change local vertices/indices to a member List (needs to be a member to be able to render at the end)
-//      Add rendered tris variable (set on every draw call, because only 1 per frame in this model)
-
 namespace DistanceFont
 {
 	public class Font

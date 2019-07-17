@@ -1,0 +1,27 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:Windows
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+/reference:..\..\DistanceFont\bin\Release\DistanceFont.dll
+
+#---------------------------------- Content ---------------------------------#
+
+#begin Arial.fnt
+/importer:FontImporter
+/processor:FontProcessor
+/build:Arial.fnt
+
+#begin ScreenMesh.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:ScreenMesh.fx
+
