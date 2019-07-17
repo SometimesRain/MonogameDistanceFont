@@ -29,7 +29,7 @@ protected override void LoadContent()
 }
 ```
 
-If you have a resizable window or you allow fullscreen toggling, you need to inform the font renderer of the window size change unless you want the text to stretch.
+If you have a resizable window or you allow fullscreen toggling, you need to inform the font renderer of the window size changes unless you want the text to stretch.
 
 ```C#
 public Game1()
