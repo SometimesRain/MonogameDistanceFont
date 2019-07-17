@@ -4,6 +4,8 @@
 You can copy the font files used in the example project font a quick start. Make sure to copy both the `.fnt` and the `.png` file to your project's Content folder.
 
 ### Using a content pipeline extension
+![](./images/pipeline.png)
+
 Open your Content file, and in the Project panel click Content (should be the top-most element). In the properties window, scroll down and click on the References property. Add `DistanceFont.dll` to the list of references. Now you can add and build `.fnt` files. You must also include `ScreenMesh.fx` from DistanceFieldExample project.
 
 ### Loading content
@@ -69,6 +71,9 @@ Download `libgdx-1.6.1.zip` from [an older releases archive](https://libgdx.badl
 I recommend saving the command as a batch file, for easier use later. 
 
 ### Using Hiero
+![](./images/hiero_settings1.png) | ![](./images/hiero_settings2.png)
+:-------------------------:|:-------------------------:
+
 1. Select a font and set padding to 8 in all directions.
 2. Tick "Glyph cache" radio button and increase font size as much as possible, while making sure the number of pages stays one.
 3. Click the X next to `Color` at the Effects panel.
